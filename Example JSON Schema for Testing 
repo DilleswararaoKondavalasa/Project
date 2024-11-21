@@ -1,0 +1,24 @@
+{
+  "formTitle": "Contact Us",
+  "fields": [
+    { "id": "name", "type": "text", "label": "Full Name", "required": true },
+    { "id": "email", "type": "email", "label": "Email Address", "required": true },
+    {
+      "id": "gender",
+      "type": "radio",
+      "label": "Gender",
+      "required": true,
+      "options": [
+        { "value": "male", "label": "Male" },
+        { "value": "female", "label": "Female" }
+      ]
+    },
+    {
+      "id": "feedback",
+      "type": "textarea",
+      "label": "Feedback",
+      "required": false,
+      "placeholder": "Your comments here..."
+    }
+  ]
+}
